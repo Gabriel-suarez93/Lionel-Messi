@@ -1,0 +1,20 @@
+
+figure{
+    display: flex;
+    justify-content: center;
+}
+figure #image{
+    width: 750px;
+    height: 410px;
+}
+@media (max-width: 720px){
+ .image{
+        width:100vh;
+}
+.img-div{
+    display: flex;
+}
+}
+@media (max-width: 480px){
+
+}

@@ -1,0 +1,39 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing:border-box;
+font-family: IBM Plex Mono, sans-serif;
+text-decoration: none;
+scroll-behavior: smooth;
+}
+body{
+    background-image: linear-gradient(360deg, #9affee,rgb(255,255,255),#9affee);
+    text-align: center;
+    font-size: 1rem;
+    margin:3px;
+    line-height: 1.5rem;
+}
+
+main{
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: block;
+    align-items: center;
+   padding: 30px 18%;
+    transition: .3ss;
+}
+li{
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    justify-content: center;
+    
+}
+
+@media (max-width: 480px){
+    p{
+        text-align: center;
+        margin-left: 35px;
+    }
+}
